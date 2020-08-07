@@ -1,0 +1,22 @@
+{
+  "name": "HTUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of HTUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lanht/HTUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lanht": "2318203932@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lanht/HTUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HTUIKit/Classes/**/*"
+}

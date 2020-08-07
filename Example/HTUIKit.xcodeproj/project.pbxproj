@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		211F5FC9E7B6D019A75D24EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		211F5FC9E7B6D019A75D24EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2B553D7A10B886DF673EE66A /* Pods_HTUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C3F1C61136EE4B7189D0A2 /* Pods-HTUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HTUIKit_Example/Pods-HTUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		332E0C4A11A252ECB63ABA21 /* Pods-HTUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HTUIKit_Tests/Pods-HTUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4D0921DE72789009A03C2486 /* HTUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTUIKit.podspec; path = ../HTUIKit.podspec; sourceTree = "<group>"; };
+		4D0921DE72789009A03C2486 /* HTUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTUIKit.podspec; path = ../HTUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* HTUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0502C3C9D377C8679467E3D /* Pods_HTUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E11A6A258366B540B1979EA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E11A6A258366B540B1979EA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F185A968BC69DD41D44A9F7A /* Pods-HTUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HTUIKit_Example/Pods-HTUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3B21446A77683F9901861AD /* Pods-HTUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HTUIKit_Tests/Pods-HTUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				332E0C4A11A252ECB63ABA21 /* Pods-HTUIKit_Tests.debug.xcconfig */,
 				F3B21446A77683F9901861AD /* Pods-HTUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
